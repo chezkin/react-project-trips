@@ -1,0 +1,14 @@
+.home-page {
+    background-image: url('your-background-image-url.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .wellcome {
+    font-size: 24px;
+    margin-top: 20px;
+  }

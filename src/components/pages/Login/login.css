@@ -1,0 +1,35 @@
+/* סגנון לכל הטופס */
+#formLogin {
+    width: 400px; /* רוחב טופס */
+    margin: 0 auto; /* מרכז את הטופס באמצעות margin */
+    padding: 20px; /* ריווח בתוך הטופס */
+    border: 1px solid #ccc; /* גבול טופס */
+    border-radius: 5px; /* פינות מעוגלות לטופס */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* צל לטופס */
+  }
+  
+  /* סגנון לשדות הטקסט בטופס */
+  input[type="text"],
+  input[type="password"] {
+    width: 90%; /* מילוי אתר כל הרוחב */
+    margin-bottom: 10px; /* ריווח בין שדות הטקסט */
+    padding: 10px; /* ריווח בתוך שדות הטקסט */
+    border: 1px solid #ccc; /* גבול שדות הטקסט */
+    border-radius: 5px; /* פינות מעוגלות לשדות הטקסט */
+  }
+  
+  /* סגנון לכפתור השליחה בטופס */
+  input[type="submit"] {
+    width: 100%; /* מילוי אתר כל הרוחב */
+    padding: 10px; /* ריווח בתוך הכפתור */
+    background-color: #007bff; /* צבע רקע */
+    color: #fff; /* צבע טקסט */
+    border: none; /* הסרת גבול לכפתור */
+    border-radius: 5px; /* פינות מעוגלות לכפתור */
+    cursor: pointer; /* הפרשת סמן יד */
+  }
+  
+  /* סגנון לכפתור השליחה בטופס בעת הכניסה עם העכבר */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* צבע רקע בעת העכבר מעל הכפתור */
+  }
